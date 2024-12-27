@@ -2,13 +2,13 @@
 
 matches:
 
-  - trigger: ":o"
+  - trigger: "::o"
     replace: "ö"
     propagate_case: true
-  - trigger: ":a"
+  - trigger: "::a"
     replace: "ä"
     propagate_case: true
-  - trigger: ":u"
+  - trigger: "::u"
     replace: "ü"
     propagate_case: true
   - trigger: ":good morning"
@@ -59,7 +59,7 @@ matches:
   - trigger: ":from"
     replace: "von"
     propagate_case: true
-  - trigger: ":s"
+  - trigger: "::s"
     replace: "ß"
     propagate_case: false
   - trigger: ":apple"
@@ -662,7 +662,7 @@ matches:
   - trigger: ":visa"
     replace: "visum"
     propagate_case: true
-  - trigger: ":bagage"
+  - trigger: ":baggage"
     replace: "gepäck"
     propagate_case: true
   - trigger: ":suitcase"
@@ -722,7 +722,7 @@ matches:
   - trigger: ":crop"
     replace: "ernte"
     propagate_case: true
-  - trigger: "potato"
+  - trigger: ":potato"
     replace: "kartoffel"
     propagate_case: true
   - trigger: ":fruit"
@@ -850,4 +850,88 @@ matches:
     propagate_case: true
   - trigger: ":zebra"
     replace: "zebra"
+    propagate_case: true
+  - trigger: ":actor"
+    replace: "Schauspieler"
+    propagate_case: true
+  - trigger: ":baker"
+    replace: "Bäcker"
+    propagate_case: true
+  - trigger: ":clerk"
+    replace: "Angestellter"
+    propagate_case: true
+  - trigger: ":diver"
+    replace: "Taucher"
+    propagate_case: true
+  - trigger: ":editor"
+    replace: "Redakteur"
+    propagate_case: true
+  - trigger: ":farmer"
+    replace: "Bauer"
+    propagate_case: true
+  - trigger: ":gardener"
+    replace: "Gärtner"
+    propagate_case: true
+  - trigger: ":healer"
+    replace: "Heiler"
+    propagate_case: true
+  - trigger: ":inventor"
+    replace: "Erfinder"
+    propagate_case: true
+  - trigger: ":juggler"
+    replace: "Jongleur"
+    propagate_case: true
+  - trigger: ":knight"
+    replace: "Ritter"
+    propagate_case: true
+  - trigger: ":librarian"
+    replace: "Bibliothekar"
+    propagate_case: true
+  - trigger: ":mason"
+    replace: "Maurer"
+    propagate_case: true
+  - trigger: ":navigator"
+    replace: "Navigator"
+    propagate_case: true
+  - trigger: ":officer"
+    replace: "Offizier"
+    propagate_case: true
+  - trigger: ":painter"
+    replace: "Maler"
+    propagate_case: true
+  - trigger: ":quilter"
+    replace: "Quilter"
+    propagate_case: true
+  - trigger: ":ranger"
+    replace: "Förster"
+    propagate_case: true
+  - trigger: ":sailor"
+    replace: "Seemann"
+    propagate_case: true
+  - trigger: ":tailor"
+    replace: "Schneider"
+    propagate_case: true
+  - trigger: ":usher"
+    replace: "Platzanweiser"
+    propagate_case: true
+  - trigger: ":vendor"
+    replace: "Verkäufer"
+    propagate_case: true
+  - trigger: ":weaver"
+    replace: "Weber"
+    propagate_case: true
+  - trigger: ":xenophile"
+    replace: "Fremdenfreund"
+    propagate_case: true
+  - trigger: ":yodeler"
+    replace: "Jodler"
+    propagate_case: true
+  - trigger: ":zoologist"
+    replace: "Zoologe"
+    propagate_case: true
+  - trigger: ":fireworkers"
+    replace: "feuerwehrmann"
+    propagate_case: true
+  - trigger: ":police"
+    replace: "polizei"
     propagate_case: true
