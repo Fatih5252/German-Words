@@ -6,6 +6,6 @@ This package is perfect for anyone looking to get started with the basics of the
 📚 Online Documentation:
 Discover how to make the most of this package and dive right in: [View the Documentation](https://espanso.org/docs/get-started/).
 
-install link: 
+🛠️ install link: 
 here, you can install the espanso package: [link](https://hub.espanso.org/german-words). 
 if you cant wisit the website, you can also type this cmd: `espanso install german-words`
